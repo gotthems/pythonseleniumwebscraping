@@ -1,0 +1,20 @@
+"Listede birbirine benzeyen stringleri tek bir listede topluyor."
+
+from collections import Counter
+
+C = Counter(name)
+Union = [[k,]*v for k,v in C.items()] 
+
+
+
+
+
+for i in list(range(len(MainDataList)))[::-1]:
+    veri = (MainDataList[i]['Kullanıcı Adı'],i)
+
+
+
+
+"""mylist = list(dict.fromkeys(Listest))
+
+print(mylist)"""
